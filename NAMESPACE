@@ -1,0 +1,11 @@
+export(coef.glmpathcr, cr.backward, cr.forward, nonzero.coef, glmpathcr, model.select, plot.glmpathcr, predict.glmpathcr, fitted.glmpathcr, print.glmpathcr, summary.glmpathcr)
+importFrom("graphics", "abline", "axis", "matplot", "par", "plot", "segments", "title")
+importFrom("stats", "approx", "binomial", "coef")
+importFrom("glmpath", "glmpath")
+S3method(print, glmpathcr)
+S3method(plot, glmpathcr)
+S3method(fitted, glmpathcr)
+S3method(predict, glmpathcr)
+S3method(coef, glmpathcr)
+S3method(summary, glmpathcr)
+
